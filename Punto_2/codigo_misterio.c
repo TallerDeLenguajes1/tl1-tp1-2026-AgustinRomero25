@@ -14,7 +14,7 @@ void dividirEnDos(int *punt_numero) {
     *punt_numero = *punt_numero / 2;
 }
 
-void sumaNumeros(int *punt_numero) {//suma cada digito al número que se ingresa como dato Ej: 452 + 4 + 5 + 2 
+void sumaNumeros(int *punt_numero) {//suma cada digito al número que se ingresa como dato Ej: 452 + 4 + 5 + 2
     int numeroTemporal = *punt_numero;
     int suma = 0;
     while (numeroTemporal > 0) {
